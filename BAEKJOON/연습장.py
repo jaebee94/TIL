@@ -1,6 +1,14 @@
 N = int(input())
-spec = []
-for _ in range(N):
-    elem = list(map(int, input().split()))
-    spec.append(elem)
-print(spec)
+number = 0
+cnt = 0
+while cnt != N:
+    number += 1
+    if '666' in str(number):
+        cnt += 1
+print(number)
+
+
+# a = '12340'
+# b = '123'
+# if b in a:
+#     print(b)

@@ -1,3 +1,4 @@
+cnt = 0
 def hanoi(block, a, b, c):
     global cnt
     if block == 1:
@@ -9,7 +10,7 @@ def hanoi(block, a, b, c):
         cnt += 1
         hanoi(block - 1, b, a, c)
 
-cnt = 0
+
 process = []
 hanoi(int(input()), 1, 2, 3)
 print(cnt)
