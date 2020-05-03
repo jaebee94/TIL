@@ -309,6 +309,6 @@ GROUP BY column;
 ```
 
 ```sqlite
-SELECT sec, COUNT(name) FROM classmates GROUP BY sex;
+SELECT sex, COUNT(name) FROM classmates GROUP BY sex;
 ```
 
