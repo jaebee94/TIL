@@ -1,0 +1,13 @@
+구입 후 60일 이내 가입
+
+애케플
+보증기간 2년까지 연장 최ㅐ 두건 우발-> 부담금
+
+python -m venv venv
+ls
+source venv/bin/activate (Mac)
+source venv/Scripts/activate (Windows)
+pip list
+python -m pip install --upgrade pip (업글)
+pip install django==2.2
+컨(커맨드) 시프트 p -> interpreter
